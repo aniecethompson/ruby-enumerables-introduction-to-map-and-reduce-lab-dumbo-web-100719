@@ -51,7 +51,7 @@ end
 def reduce_to_all_true(source_array)
   all_true = []
   i = 0
-  if i < source_array.size do
+  if i < source_array.size 
     all_true == true
   else
     all_true != true
