@@ -1,7 +1,9 @@
 def map_to_negativize(source_array)
   final_array = []
   i = 1
-  source_array.map { |n| n * -1 }
+  while i < array.size do
+    source_array.map { |n| n * -1 }
+  end
 end
 
 def map_to_no_change(source_array)
