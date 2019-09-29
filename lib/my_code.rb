@@ -1,5 +1,6 @@
 def map_to_negativize(source_array)
   final_array = []
+  i = 1
   source_array.map { |n| n * -1 }
 end
 
